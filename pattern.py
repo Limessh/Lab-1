@@ -15,5 +15,6 @@ def draw_pattern(k,n):
         print((f"{BLACK}{'   '*1}{WHITE}{'   '*4}{BLACK}{'   '*1}{BLACK}{'   '*1}{WHITE}{'   '*4}{BLACK}{'   '*1}{END}")*k)
         print((f"{WHITE}{'   '*(radius-2)}{BLACK}{'   '*1}{WHITE}{'   '*2}{BLACK}{'   '*1}{WHITE}{'   '*(radius-2)}{WHITE}{'   '*(radius-2)}{BLACK}{'   '*1}{WHITE}{'   '*2}{BLACK}{'   '*1}{WHITE}{'   '*(radius-2)}{END}")*k)
         print((f"{WHITE}{'   '*(radius-1)}{BLACK}{'   '*2}{WHITE}{'   '*(radius-1)}{WHITE}{'   '*(radius-1)}{BLACK}{'   '*2}{WHITE}{'   '*(radius-1)}{END}")*k)
-        
-print(draw_pattern(4,4))
+
+if __name__=="__main__":       
+    draw_pattern(4,4)

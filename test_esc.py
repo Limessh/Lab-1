@@ -11,9 +11,9 @@ for i in range(6):
     else:
         print(f'{BLUE}{"  " * (12 - 2 * i)}{RED}{"  " * (4 + 2 * i)}{END}')
 
-file = open('sequence.txt', 'r')
-list = []
-for number in file:
-    list.append(float(number))
-file.close()
-print(list)
+# file = open('sequence.txt', 'r')
+# list = []
+# for number in file:
+#     list.append(float(number))
+# file.close()
+# print(list)

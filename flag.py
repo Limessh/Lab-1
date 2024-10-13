@@ -12,5 +12,5 @@ def draw_flag(size):
         elif 0<i<center or center<i<(size-1): print(f'{RED}{"   "*k}{WHITE}{"   "}{RED}{"   "*k}{END}')
         else: print(f'{RED}{"   "*size}{END}')
 
-
-print(draw_flag(5))
+if __name__=="__main__": 
+    draw_flag(5)
