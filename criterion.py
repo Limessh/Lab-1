@@ -14,5 +14,5 @@ for number in file:
 file.close()
 
 procent=lot/100
-print('Подходящие числа:' + '\t' + str(lot1/procent)+'\t'+f'{BLUE}{" "*(lot1)}{END}')
-print('Оставшиеся числа:' + '\t' + str((lot-lot1)/procent)+'\t'+f'{RED}{" "*(lot-lot1)}{END}')
+print('Подходящие числа:' + '\t' + str(lot1/procent)+'\t'+f'{BLUE}{" "*(lot1//2)}{END}')
+print('Оставшиеся числа:' + '\t' + str((lot-lot1)/procent)+'\t'+f'{RED}{" "*((lot-lot1)//2)}{END}')
